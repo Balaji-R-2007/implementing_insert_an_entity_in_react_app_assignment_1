@@ -1,0 +1,50 @@
+/* src/components/BookCard.css */
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 200px;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-cover {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.book-details {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+  flex-grow: 1;
+}
+
+.book-author {
+  margin: 8px 0;
+  color: #555;
+  font-size: 1em;
+}
+
+.book-description {
+  color: #666;
+  font-size: 0.9em;
+}

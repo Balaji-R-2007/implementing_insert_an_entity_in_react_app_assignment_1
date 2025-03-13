@@ -1,0 +1,19 @@
+/* src/App.css */
+
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Remove default margin and padding */
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

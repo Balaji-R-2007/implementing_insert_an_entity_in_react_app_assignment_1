@@ -1,0 +1,21 @@
+/* src/components/Home.css */
+
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
